@@ -61,7 +61,7 @@ const ExperienceSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
             Experience & Leadership
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -112,7 +112,7 @@ const ExperienceSection = () => {
                     </div>
 
                     {/* Role & Organization */}
-                    <h3 className="text-xl font-bold text-foreground mb-2">
+                    <h3 className="text-xl font-bold text-foreground mb-2 font-serif">
                       {exp.role}
                     </h3>
                     <p className="text-primary font-medium mb-3">

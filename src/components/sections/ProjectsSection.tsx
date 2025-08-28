@@ -47,7 +47,7 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
               </div>
 
               {/* Project Info */}
-              <h3 className="text-xl font-bold text-foreground mb-2">
+              <h3 className="text-xl font-bold text-foreground mb-2 font-serif">
                 {project.title}
               </h3>
               

@@ -37,7 +37,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.div
-            className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent font-serif"
             whileHover={{ scale: 1.05 }}
           >
             Portfolio
@@ -87,7 +87,7 @@ const Navigation = () => {
                 </Button>
               </motion.a>
               <motion.a
-                href="mailto:contact@example.com"
+                href="mailto:disha.gokhale@iitg.ac.in"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >

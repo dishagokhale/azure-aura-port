@@ -73,7 +73,7 @@ const AchievementsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
             Achievements & Recognition
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -138,7 +138,7 @@ const AchievementsSection = () => {
                 <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded mb-3 inline-block">
                   {achievement.category}
                 </span>
-                <h3 className="text-lg font-bold text-foreground mb-3">
+                <h3 className="text-lg font-bold text-foreground mb-3 font-serif">
                   {achievement.title}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -174,7 +174,7 @@ const AchievementsSection = () => {
           viewport={{ once: true }}
           className="glass-card p-8 max-w-4xl mx-auto"
         >
-          <h3 className="text-2xl font-bold text-center text-foreground mb-8">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-8 font-serif">
             Additional Accomplishments
           </h3>
           

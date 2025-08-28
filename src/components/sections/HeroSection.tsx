@@ -44,10 +44,10 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
             className="mb-8"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 font-serif">
               <span className="block text-foreground">Hi, I'm</span>
               <span className="block bg-gradient-primary bg-clip-text text-transparent text-shadow-glow">
-                Yash Sharma
+                Disha Gokhale
               </span>
             </h1>
             
@@ -75,7 +75,7 @@ const HeroSection = () => {
           >
             B.Tech student at IIT Guwahati with expertise in product management, 
             business analysis, and financial modeling. Passionate about building 
-            innovative solutions and driving strategic growth.
+            innovative solutions and driving strategic growth through data-driven insights.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -87,7 +87,7 @@ const HeroSection = () => {
           >
             <Button 
               size="lg" 
-              className="bg-gradient-primary hover:opacity-90 transition-all duration-300 animate-glow"
+              className="bg-gradient-primary hover:scale-105 hover:shadow-lg transition-all duration-500 animate-bounce-slow font-serif"
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume
@@ -112,7 +112,7 @@ const HeroSection = () => {
             {[
               { icon: Github, href: "https://github.com", label: "GitHub" },
               { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:contact@example.com", label: "Email" },
+              { icon: Mail, href: "mailto:disha.gokhale@iitg.ac.in", label: "Email" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}

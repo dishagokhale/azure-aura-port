@@ -54,7 +54,7 @@ const SkillsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
             Skills & Expertise
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -73,7 +73,7 @@ const SkillsSection = () => {
               className="glass-card p-6 hover:bg-card/80 transition-all duration-300"
               whileHover={{ scale: 1.02 }}
             >
-              <h3 className="text-xl font-bold mb-6 text-center text-foreground">
+              <h3 className="text-xl font-bold mb-6 text-center text-foreground font-serif">
                 {category.title}
               </h3>
               <div className="grid grid-cols-2 gap-3">
@@ -110,7 +110,7 @@ const SkillsSection = () => {
           className="mt-12 text-center"
         >
           <div className="glass-card p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4 text-foreground">
+            <h3 className="text-2xl font-bold mb-4 text-foreground font-serif">
               Core Competencies
             </h3>
             <div className="grid md:grid-cols-2 gap-6 text-left">
