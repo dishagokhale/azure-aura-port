@@ -36,7 +36,7 @@ const AboutSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -94,7 +94,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold mb-6 text-center lg:text-left font-serif">Education</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center lg:text-left">Education</h3>
             {education.map((edu, index) => (
               <motion.div
                 key={index}

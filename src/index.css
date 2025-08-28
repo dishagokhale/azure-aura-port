@@ -6,89 +6,87 @@
 All colors MUST be HSL.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap');
-
 @layer base {
   :root {
-    /* New Color Scheme - Light Mode */
-    --background: 44 47% 84%; /* #efd6ac beige background */
-    --foreground: 210 100% 6%; /* #04151f dark text */
+    /* Portfolio Color Scheme - Light Mode */
+    --background: 0 0% 99.2%; /* #fdfdfd */
+    --foreground: 0 0% 6.7%; /* #111 */
 
-    --card: 44 47% 90%; /* lighter beige for cards */
-    --card-foreground: 210 100% 6%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 6.7%;
 
-    --popover: 44 47% 90%;
-    --popover-foreground: 210 100% 6%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 6.7%;
 
-    --primary: 22 100% 38%; /* #c44900 orange */
-    --primary-foreground: 44 47% 84%;
+    --primary: 217 91% 60%; /* #3b82f6 blue-500 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 174 37% 16%; /* #183a37 dark teal */
-    --secondary-foreground: 44 47% 84%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 6.7%;
 
-    --muted: 44 47% 80%;
-    --muted-foreground: 210 100% 20%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 317 28% 20%; /* #432534 dark purple */
-    --accent-foreground: 44 47% 84%;
+    --accent: 271 91% 65%; /* #9333ea purple-600 */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 44 47% 75%;
-    --input: 44 47% 85%;
-    --ring: 22 100% 38%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 217 91% 60%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
 
     /* Glassmorphism */
-    --glass-bg: 44 47% 84% / 0.8;
-    --glass-border: 44 47% 70% / 0.3;
-    --glass-shadow: 0 8px 32px 0 rgba(4, 21, 31, 0.15);
+    --glass-bg: 0 0% 100% / 0.7;
+    --glass-border: 0 0% 100% / 0.18;
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(22 100% 38%), hsl(317 28% 20%));
-    --gradient-hero: linear-gradient(135deg, hsl(22 100% 38% / 0.1), hsl(317 28% 20% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(271 91% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60% / 0.1), hsl(271 91% 65% / 0.1));
   }
 
   .dark {
-    /* New Color Scheme - Dark Mode */
-    --background: 210 100% 6%; /* #04151f dark background */
-    --foreground: 44 47% 84%; /* #efd6ac light text */
+    /* Portfolio Color Scheme - Dark Mode */
+    --background: 222 84% 4.9%; /* #0f172a slate-900 */
+    --foreground: 210 40% 98%; /* #f8fafc */
 
-    --card: 174 37% 12%; /* darker teal for cards */
-    --card-foreground: 44 47% 84%;
+    --card: 222 84% 4.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 174 37% 12%;
-    --popover-foreground: 44 47% 84%;
+    --popover: 222 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 22 100% 50%; /* brighter orange for dark mode */
-    --primary-foreground: 210 100% 6%;
+    --primary: 213 93% 68%; /* #60a5fa blue-400 */
+    --primary-foreground: 222 84% 4.9%;
 
-    --secondary: 317 28% 25%; /* lighter purple */
-    --secondary-foreground: 44 47% 84%;
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 174 37% 16%;
-    --muted-foreground: 44 47% 70%;
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 174 37% 20%; /* #183a37 teal accent */
-    --accent-foreground: 44 47% 84%;
+    --accent: 271 91% 74%; /* #c084fc purple-400 */
+    --accent-foreground: 222 84% 4.9%;
 
     --destructive: 0 63% 31%;
-    --destructive-foreground: 44 47% 84%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 174 37% 20%;
-    --input: 174 37% 16%;
-    --ring: 22 100% 50%;
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 213 93% 68%;
 
     /* Dark Glassmorphism */
-    --glass-bg: 210 100% 6% / 0.8;
-    --glass-border: 44 47% 84% / 0.1;
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    --glass-bg: 0 0% 0% / 0.4;
+    --glass-border: 255 255% 100% / 0.18;
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
     /* Dark gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(22 100% 50%), hsl(174 37% 20%));
-    --gradient-hero: linear-gradient(135deg, hsl(22 100% 50% / 0.1), hsl(174 37% 20% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(213 93% 68%), hsl(271 91% 74%));
+    --gradient-hero: linear-gradient(135deg, hsl(213 93% 68% / 0.1), hsl(271 91% 74% / 0.1));
   }
 }
 
@@ -103,44 +101,22 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Times New Roman', serif;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Times New Roman', serif;
   }
 }
 
 @layer components {
   /* Glassmorphism utilities */
   .glass-card {
-    @apply backdrop-blur-md bg-card/80 border border-border/30 shadow-lg rounded-lg;
+    @apply backdrop-blur-md bg-card/70 border border-white/20 shadow-lg;
   }
 
   .glass-nav {
-    @apply backdrop-blur-lg bg-background/90 border-b border-border/20;
-  }
-
-  /* Card utilities */
-  .card-rounded {
-    @apply rounded-lg;
+    @apply backdrop-blur-lg bg-background/80 border-b border-white/10;
   }
 
   /* Animation utilities */
   .animate-typewriter {
     @apply animate-pulse;
-  }
-
-  .animate-bounce-slow {
-    animation: bounce 2s infinite;
-  }
-
-  .scroll-fade-in {
-    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
-  }
-
-  .scroll-fade-in.in-view {
-    @apply opacity-100 translate-y-0;
   }
 
   /* Gradient utilities */

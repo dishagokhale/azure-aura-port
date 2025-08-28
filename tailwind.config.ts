@@ -18,9 +18,6 @@ export default {
 			}
 		},
 		extend: {
-			fontFamily: {
-				'serif': ['Times New Roman', 'serif'],
-			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

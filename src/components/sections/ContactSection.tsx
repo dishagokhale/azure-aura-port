@@ -31,14 +31,14 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "disha.gokhale@iitg.ac.in",
-      href: "mailto:disha.gokhale@iitg.ac.in"
+      value: "yash.sharma@iitg.ac.in",
+      href: "mailto:yash.sharma@iitg.ac.in"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 91757 15109",
-      href: "tel:+919175715109"
+      value: "+91 XXXXX XXXXX",
+      href: "tel:+91XXXXXXXXX"
     },
     {
       icon: MapPin,
@@ -79,7 +79,7 @@ const ContactSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent font-serif">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Get In Touch
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -97,7 +97,7 @@ const ContactSection = () => {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6 font-serif">
+              <h3 className="text-2xl font-bold text-foreground mb-6">
                 Let's Start a Conversation
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
@@ -171,7 +171,7 @@ const ContactSection = () => {
             viewport={{ once: true }}
             className="glass-card p-8"
           >
-            <h3 className="text-2xl font-bold text-foreground mb-6 font-serif">
+            <h3 className="text-2xl font-bold text-foreground mb-6">
               Send Me a Message
             </h3>
 
@@ -259,7 +259,7 @@ const ContactSection = () => {
           className="text-center mt-16"
         >
           <div className="glass-card p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4 font-serif">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
               Let's Build Something Amazing Together
             </h3>
             <p className="text-muted-foreground mb-6">
